@@ -14,19 +14,19 @@
         <h1>Form HTML</h1>
         <p>Showing an input from a form using JQuery</p>
     </header>
-
-    <div id="form">
-        <h2>Biodata</h2>
-        <label title="name">Name</label><br />
-        <input title="text" type=" text " name="name " id="fname " /><br /> </div>
-    <label>Address</label><br>
-    <textarea name="Address" id="Address"></textarea>
-    <br />
-    <label title="gender">Gender</label>
-    <input type="radio" name="gender" value="male" /><label for="male">Male</label>
-    <input type="radio" name="gender" value="female" /><label for="female">Female</label><br/>
-    <label>City</label>
-    <select name="city" id="fcity">
+    <div id="wrapper">
+        <div id="form">
+            <h2>Biodata</h2>
+            <label title="name">Name</label><br />
+            <input title="text" type=" text " name="name " id="fname " /><br /> </div>
+        <label>Address</label><br>
+        <textarea name="Address" id="Address"></textarea>
+        <br />
+        <label title="gender">Gender</label>
+        <input type="radio" name="gender" value="male" /><label for="male">Male</label>
+        <input type="radio" name="gender" value="female" /><label for="female">Female</label><br/>
+        <label>City</label>
+        <select name="city" id="fcity">
         <option value="Kathmandu">Kathmandu</option>
         <option value="Pokhara">Pokhara</option>
         <option value="Tikapur">Tikapur</option>
@@ -34,8 +34,42 @@
         <option value="Nepaljung">Nepaljung</option>
         <option value="Chitwan">Chitwan</option>
         <option value="Dang">Dang</option>
-    </select>
-    <br />
+         </select>
+        <br />
+        <div class="btn">
+            <button id="send">send</button>
+            <button id="reset">reset</button>
+        </div>
+
+        <div id="table">
+            <h2>Student Data</h2>
+
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td id="name"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td id="Address"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>:</td>
+                    <td id="Gender"></td>
+                </tr>
+                <tr>
+                    <td>Country/city</td>
+                    <td>:</td>
+                    <td id="Coutry/city"></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <footer id="footer">AnjeelChaudhary-191736.<br /></footer>
 </body>
 
 
